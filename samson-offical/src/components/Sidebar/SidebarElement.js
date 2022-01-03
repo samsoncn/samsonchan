@@ -17,10 +17,10 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
 
     // if isOpen is true, then do 100%, or else we do 0.
-    // opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
+    opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
 
-    // top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-    top: 0;
+    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    // top: 0;
 `
 
 export const CloseIcon = styled(FaTimes)`

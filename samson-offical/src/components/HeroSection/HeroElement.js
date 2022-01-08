@@ -9,7 +9,6 @@ export const HeroContainer = styled.div`
     height: 1020px;
     position: relative;
     z-index: 1;
-    margin-top: -80px;
 
     :before {
         content: '';

@@ -4,15 +4,17 @@ import { Link as LinkS} from 'react-scroll';
 
 
 export const Nav = styled.nav`
-    background: transparent;
+    background: ${({ scrollNav }) => (scrollNav ? 'rgba(0,0,0,0.7)' : 'transparent')};
+    // background: #000;
     height: 80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 999;
     
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
@@ -44,6 +46,7 @@ export const NavLogo = styled(LinkR)`
 
 export const MobileIcon = styled.div`
     display: none;
+
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
@@ -64,6 +67,7 @@ export const NavMenu = styled.ul`
     text-align: center;
     // margin-left: 20%;
     // margin-right: -22px;
+
     @media screen and (max-width: 768px) {
         display: none;
     }

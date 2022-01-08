@@ -1,13 +1,29 @@
  //rafce
-import React from 'react'
-import {FaBars} from 'react-icons/fa'
+import React, {useState, useEffect} from 'react';
+import {FaBars} from 'react-icons/fa';
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtnLink, NavBtn} from './NavbarElement';
 // import 
 
 const Navbar = ({ toggle }) => {
+    const [scrollNav, setScrollNav] = useState(false);
+
+    const changeNav = () => {
+        console.log(window.screenY);
+        if(window.scrollY >= 100) {
+            setScrollNav(true);
+        }
+        else {
+            setScrollNav(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav);
+    }, [])
+
     return (
         <>
-            <Nav>
+            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to="/">samson</NavLogo>
                     <MobileIcon onClick={toggle}>

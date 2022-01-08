@@ -6,8 +6,8 @@ import { Link as LinkS} from 'react-scroll';
 export const Nav = styled.nav`
     background: ${({ scrollNav }) => (scrollNav ? 'rgba(0,0,0,0.7)' : 'transparent')};
     // background: #000;
-    height: 80px;
-    margin-top: -80px;
+    height: ${({ scrollNav }) => (scrollNav ? '80px' : '120px')};
+    margin-top: -120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
+    transition: ${({ scrollNav }) => (scrollNav ? '0.4s all ease-in-out' : 'none')};;
     
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;

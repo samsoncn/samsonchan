@@ -3,9 +3,9 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false, 
     lightTextDesc: true,
-    topLine: 'About me',
-    headline: 'computer science student', 
-    description: 'work hard player harder', 
+    topLine: 'About-Samson ',
+    headline: 'Computer Science student', 
+    description: 'I\'m about to enter my third year undergraduate at York Unisersity. When I\'m not spending time on school or work, I\'ll be with friends, working out, or exploring new songs. I built this website in ReactJs as a way for people to find out what I\'ve worked on. ', 
     buttonLabel: 'Get started', 
     imgStart: false,
     img: require('../../images/me.png'),
@@ -34,17 +34,17 @@ export const homeObjOne = {
 
 export const homeObjThree = {
     id: 'resume',
-    lightBg: false,
-    lightText: true, 
+    lightBg: true,
+    lightText: false, 
     lightTextDesc: true,
-    topLine: 'About me',
+    topLine: 'Resume',
     headline: 'computer science student', 
     description: 'work hard player harder', 
     buttonLabel: 'Get started', 
-    imgStart: false,
-    img: require('../../images/me.png'),
+    imgStart: true,
+    img: require('../../images/contact.png'),
     alt: 'resume', 
-    dark: true,
-    primary: true, 
-    darkText: false
+    dark: false,
+    primary: false, 
+    darkText: true
 };

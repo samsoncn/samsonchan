@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtnLink, NavBtn} from './NavbarElement';
-// import 
+import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -21,23 +21,46 @@ const Navbar = ({ toggle }) => {
         window.addEventListener('scroll', changeNav);
     }, [])
 
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/">samson</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>samson</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about'>About</NavLinks>
+                            <NavLinks to='about'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                // offset={-60}
+                                activeClass='active'
+                            >About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='project'>Project</NavLinks>
+                            <NavLinks to='project'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                // offset={-60}
+                            >Project</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='resume'>Resume</NavLinks>
+                            <NavLinks to='resume'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                // offset={-60}
+                            >Resume</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

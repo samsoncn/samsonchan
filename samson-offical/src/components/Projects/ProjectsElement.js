@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-    height: 800px;
+    height: 1100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #010606;
-    padding-top: 150px;
+    // padding-top: 150px;
 
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 1300px;
     }
     @media screen and (max-width: 480px) {
         height: 1300px;

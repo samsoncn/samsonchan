@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'I\'m about to enter my third year undergraduate at York Unisersity. When I\'m not spending time on school or work, I\'ll be with friends, working out, or exploring new songs. I built this website in ReactJs as a way for people to find out what I\'ve worked on. ', 
     buttonLabel: 'Get started', 
     imgStart: false,
-    img: require('../../images/me.png'),
+    img: require('../../images/me-3.png'),
     alt: 'About', 
     dark: false,
     primary: false, 

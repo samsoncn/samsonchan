@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const InfoContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => lightBg ? '#e2d9d0' : '#010606'};
@@ -13,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1020px;
+    height: 1050px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -74,7 +73,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-    max-width: 440px;
+    max-width: 480px;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;

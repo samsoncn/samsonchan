@@ -7,14 +7,15 @@ import { homeObjOne, homeObjThree } from '../components/InfoSection/Data';
 // , homeObjTwo
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
+// import { Router } from 'react-router-dom';
 
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
         setIsOpen(!isOpen)
-    }
+    };
 
     return (
         <>

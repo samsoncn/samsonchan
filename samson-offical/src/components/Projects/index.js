@@ -30,6 +30,6 @@ const Projects = () => {
             
         </ProjectsContainer>
     )
-}
+};
 
-export default Projects
+export default Projects;

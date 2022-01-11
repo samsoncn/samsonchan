@@ -19,7 +19,7 @@ const Navbar = ({ toggle }) => {
 
     useEffect(() => {
         window.addEventListener('scroll', changeNav);
-    }, [])
+    }, []);
 
     const toggleHome = () => {
         scroll.scrollToTop();
@@ -40,8 +40,8 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                // offset={-60}
-                                activeClass='active'
+                                // offset={-80}
+                                // activeClass="active"
                             >About</NavLinks>
                         </NavItem>
                         <NavItem>
@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                // offset={-60}
+                                // offset={-30}
                             >Project</NavLinks>
                         </NavItem>
                         <NavItem>
@@ -59,7 +59,6 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                // offset={-60}
                             >Resume</NavLinks>
                         </NavItem>
                     </NavMenu>

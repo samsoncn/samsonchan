@@ -17,7 +17,7 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
 
     // if isOpen is true, then do 100%, or else we do 0.
-    opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
+    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
 
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
     // top: 0;
@@ -29,8 +29,9 @@ export const CloseIcon = styled(FaTimes)`
 
 export const Icon = styled.div`
     position: absolute; 
-    top: 1.2rem;
+    top: 1.5rem;
     right: 1.5rem;
+    // right: 0;
     background: transparent;
     font-size: 2rem;
     cursor: pointer;
@@ -43,11 +44,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 120px);
+    grid-template-rows: repeat(5, 100px);
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(4, 100px);
+        grid-template-rows: repeat(5, 80px);
     }
 `
 
@@ -55,7 +56,7 @@ export const SidebarLink = styled(LinkS)`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
@@ -63,7 +64,7 @@ export const SidebarLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #087cc4;
         transition: 0.2s ease-in-out;
     }
  `;
@@ -75,20 +76,20 @@ export const SidebarLink = styled(LinkS)`
 
  export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
-    background: #87CEFA;
+    background: #087cc4;
     white-space: nowrap;
-    padding: 10px 22px;
+    padding: 16px 64px;
     color: #010666;
-    font-size: 16px;
+    font-size: 1.4rem;
     outline: none;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 
-    &.hover {
+    &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010666;
+        // color: #fff;
+        background: #87CEFA;
     }
- `
+ `;

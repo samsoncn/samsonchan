@@ -28,12 +28,13 @@ const Footer = () => {
                             <SocialIconLink href="https://github.com/samsoncn" target="" aria-label="Github">
                                 <FaGithub />
                             </SocialIconLink>
-                            <SocialIconLink href="https://www.instagram.com/samsonnchan/" target="" aria-label="Instagram">
-                                <FaInstagram />
-                            </SocialIconLink>
                             <SocialIconLink href="https://www.facebook.com/samson.chan.9" target="" aria-label="Facebook">
                                 <FaFacebookF />
                             </SocialIconLink>
+                            <SocialIconLink href="https://www.instagram.com/samsonnchan/" target="" aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
+
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>

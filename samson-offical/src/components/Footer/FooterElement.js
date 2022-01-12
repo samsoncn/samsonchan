@@ -62,7 +62,7 @@ export const SocialIconLink = styled.a`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-        font-size:30px;
-        color: #0a9bf5;
+        // font-size:30px;
+        color: #cccccc;
     }
 `;

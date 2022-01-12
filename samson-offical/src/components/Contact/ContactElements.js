@@ -60,8 +60,9 @@ export const FormContent = styled.div`
 `;
 
 export const Form = styled.form`
-    background: #021f31;
-    max-width: 900px;
+    // background: #021f31;
+    background: #054d7a;
+    max-width: 600px;
     height: auto;
     width: 100%;
     z-index: 1;
@@ -79,14 +80,14 @@ export const Form = styled.form`
 export const FormH1 = styled.h1`
     margin-bottom: 40px;
     color: #fff;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 400;
     text-align: center;
 `;
 
 export const FormLabel = styled.label`
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
 `;
 
@@ -98,13 +99,19 @@ export const FormEmailInput = styled.input`
 `;
 export const FormTextarea = styled.textarea`
     padding: 16px 16px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     border: none;
     border-raidus: 4px;
-`
+`;
+
+export const Message = styled.div`
+    height: 25px;
+    font-size: 14px;
+    color: #fff;
+`;
 
 export const FormButton = styled.button`
-    background: #076cab;
+    background: #032e49;
     padding: 16px 0;
     border: none;
     border-radius: 4px;
@@ -113,7 +120,7 @@ export const FormButton = styled.button`
     cursor: pointer;
 
     &:hover {
-        background: #054d7a;
+        background: #076cab;
     }
 `;
 

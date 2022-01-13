@@ -19,7 +19,7 @@ export const Container = styled.div`
     // );
     // background: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     // background: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
-    background: linear-gradient(108deg, #36669d 10%, #d3d3d3 74%);
+    background: linear-gradient(128deg, #36669d 0%, #e2d9d0 74%);
 
     `;
 
@@ -62,7 +62,7 @@ export const FormContent = styled.div`
 export const Form = styled.form`
     // background: #021f31;
     background: #054d7a;
-    max-width: 600px;
+    max-width: 560px;
     height: auto;
     width: 100%;
     z-index: 1;

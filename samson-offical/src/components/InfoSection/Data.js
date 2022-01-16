@@ -1,3 +1,5 @@
+import { FaBorderNone } from 'react-icons/fa';
+
 export const homeObjOne = {
     id: 'about',
     lightBg: true,
@@ -10,6 +12,7 @@ export const homeObjOne = {
     imgStart: true,
     img: require('../../images/me-3.png'),
     alt: 'About', 
+    href: '/',
     dark: false,
     primary: false, 
     darkText: true
@@ -39,11 +42,12 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: 'Resume',
     headline: 'All About the Experience', 
-    description: "I worked as a Softwre Engineer Intern, Front-End Developer Intern and Computational Thinking Mentor.", 
+    description: "-Softwre Engineer Intern\n-Front-End Developer Intern and Computational Thinking Mentor.", 
     buttonLabel: 'Learn more', 
     imgStart: false,
-    img: require('../../images/contact.png'),
+    img: require('../../images/resume.png'),
     alt: 'resume', 
+    href: 'https://drive.google.com/file/d/1CJdJaayoidESjnMvZ8PTOyMVL1A4USG0/preview', 
     dark: false,
     primary: false, 
     darkText: true

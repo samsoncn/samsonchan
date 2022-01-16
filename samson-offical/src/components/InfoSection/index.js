@@ -3,7 +3,12 @@ import { Button } from '../ButtonElements';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img, TextWrapper } from './InfoElement';
 
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, href}) => {
+    
+    const toReume = () => {
+        
+    };
+
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -30,9 +35,11 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         </TextWrapper>
                         </Column1>
                         <Column2>
-                            <ImgWrap>
-                                <Img src={img} alt={alt}/>
-                            </ImgWrap>
+                            <a href={href}>
+                                <ImgWrap>
+                                    <Img src={img} alt={alt}/>
+                                </ImgWrap>
+                            </a>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>

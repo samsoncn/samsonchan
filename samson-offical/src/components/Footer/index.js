@@ -15,7 +15,7 @@ const Footer = () => {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/home' onClick={toggleHome}>samson</SocialLogo>
+                        <SocialLogo to='/' onClick={toggleHome}>SCHAN</SocialLogo>
 
                         <WebsiteRights>samson © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>

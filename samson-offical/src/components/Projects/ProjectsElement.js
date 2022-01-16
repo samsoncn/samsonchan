@@ -9,10 +9,10 @@ export const ProjectsContainer = styled.div`
     background: #010606;
 
     @media screen and (max-width: 768px) {
-        height: 1350px;
+        height: 1650px;
     }
     @media screen and (max-width: 480px) {
-        height: 1300px;
+        height: 1700px;
     }
 `;
 
@@ -61,9 +61,11 @@ export const ProjectsIcon = styled.img`
 `;
 
 export const ProjectsH1 = styled.h1`
-    font-size: 2.5rem;
     color: #fff;
-    margin-bottom: 64px;
+    margin-bottom: 54px;
+    // line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;

@@ -98,4 +98,11 @@ export const Img = styled.img`
     // @media screen and (max-width: 768px) {
 
     // }
+    &:hover {
+        // border: 1px solid #BFBFBF;
+        background-color: white;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        width: 110%;
+        transition: all 0.5s ease-in-out;
+    }
 `;

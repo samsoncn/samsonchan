@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
 
     const changeNav = () => {
         console.log(window.screenY);
-        if(window.scrollY >= 350) {
+        if(window.scrollY >= 550) {
             setScrollNav(true);
         }
         else {

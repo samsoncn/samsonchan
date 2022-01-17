@@ -4,10 +4,6 @@ import { InfoContainer, InfoWrapper, InfoRow, Column1, TopLine, Heading, Subtitl
 
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, href}) => {
-    
-    const toReume = () => {
-        
-    };
 
     return (
         <>
@@ -19,6 +15,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
+                            
                             <BtnWrap>
                                 <Button 
                                     to='/contact' 
@@ -37,7 +34,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         <Column2>
                             <a href={href}>
                                 <ImgWrap>
-                                    <Img src={img} alt={alt}/>
+                                    <Img id={id} src={img} alt={alt}/>
                                 </ImgWrap>
                             </a>
                         </Column2>

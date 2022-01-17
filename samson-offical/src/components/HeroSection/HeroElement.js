@@ -66,6 +66,9 @@ export const HeroH1 = styled.h1`
     text-align: center;
     margin-top: -100px;
 
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
     @media screen and (max-width: 768px) {
         font-size: 40px;
     }

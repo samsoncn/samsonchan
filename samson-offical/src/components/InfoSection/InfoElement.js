@@ -76,8 +76,9 @@ export const Subtitle = styled.p`
     max-width: 480px;
     margin-bottom: 35px;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 30px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+
 `;
 
 export const BtnWrap = styled.div`
@@ -88,6 +89,7 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+
 `;
 
 export const Img = styled.img`
@@ -95,14 +97,4 @@ export const Img = styled.img`
     margin: 0 0 20px 0;
     padding-right: 0; 
 
-    // @media screen and (max-width: 768px) {
-
-    // }
-    &:hover {
-        // border: 1px solid #BFBFBF;
-        background-color: white;
-        box-shadow: 10px 10px 5px #aaaaaa;
-        width: 110%;
-        transition: all 0.5s ease-in-out;
-    }
 `;

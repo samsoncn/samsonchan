@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
-    transition: ${({ scrollNav }) => (scrollNav ? 'all 0.9s ease-in-out' : 'none')};
+    transition: ${({ scrollNav }) => (scrollNav ? 'all 0.3s ease-in-out' : 'none')};
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;

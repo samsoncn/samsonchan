@@ -40,7 +40,7 @@ export const Icon = styled(Link)`
     text-decoration: none;
     color:#fff;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 26px;
 
     @media screen and ( max-width: 480px) {
         margin-left: 16px;

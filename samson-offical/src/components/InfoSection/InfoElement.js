@@ -96,5 +96,12 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 20px 0;
     padding-right: 0; 
+    transition: all 0.5s ease-in-out;
 
+
+    &:hover {
+        transform: scale(1.06);
+        // transform: scale(0.5) translate(100%, -100%);
+        cursor: pointer;
+    }
 `;

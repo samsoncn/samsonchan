@@ -31,7 +31,7 @@ const Contact = () => {
         <>
             <Container>
                 <FormWrap>
-                    <Icon to="/">samson</Icon>
+                    <Icon to="/">SCHAN</Icon>
                     <FormContent>
                         <Form action="#" onSubmit={sendEmail}>
                             <FormH1>Say Hello!</FormH1>

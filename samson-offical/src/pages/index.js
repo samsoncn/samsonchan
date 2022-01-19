@@ -1,34 +1,33 @@
-import React, {useState} from 'react'
-import Sidebar from '../components/Sidebar';
-import Navbar from '../components/Navbar';
-import HeroSection from '../components/HeroSection';
-import InfoSection from '../components/InfoSection';
-import { homeObjOne, homeObjThree } from '../components/InfoSection/Data';
+import React, { useState } from "react";
+import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import InfoSection from "../components/InfoSection";
+import { homeObjOne, homeObjThree } from "../components/InfoSection/Data";
 // , homeObjTwo
-import Projects from '../components/Projects';
-import Footer from '../components/Footer';
+import Projects from "../components/Projects";
+import Footer from "../components/Footer";
 // import { Router } from 'react-router-dom';
 
-
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    };
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
 
-    return (
-        <>
-        <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle={toggle}  />
-        <HeroSection />
-        <InfoSection {...homeObjOne} />
-        <Projects />
-        {/* <InfoSection {...homeObjTwo} /> */}
-        <InfoSection {...homeObjThree} />
-        <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <HeroSection />
+      <InfoSection {...homeObjOne} />
+      <Projects />
+      {/* <InfoSection {...homeObjTwo} /> */}
+      <InfoSection {...homeObjThree} />
+      <Footer />
+    </>
+  );
+};
 
 export default Home;

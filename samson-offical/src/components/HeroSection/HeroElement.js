@@ -54,7 +54,7 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 8px 24px;
+    // padding: 8px 24px;
     display: flex;
     flex-decoration: column;
     align-items: center;
@@ -65,6 +65,8 @@ export const HeroH1 = styled.h1`
     font-size: 40px;
     text-align: center;
     margin-top: -100px;
+    // padding-left: -100px;
+
 
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */

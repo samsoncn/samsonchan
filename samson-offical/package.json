@@ -1,5 +1,6 @@
 {
   "name": "samson-offical",
+  "homepage": "https://www.samsonchan.tech/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

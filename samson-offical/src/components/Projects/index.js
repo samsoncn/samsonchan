@@ -9,7 +9,7 @@ import {
   ProjectsP,
   ProjectA,
 } from "./ProjectsElement";
-import Icon1 from "../../images/imglab-1.gif";
+import Icon1 from "../../images/ASL.png";
 import Icon2 from "../../images/vision0.png";
 import Icon3 from "../../images/sharger.png";
 
@@ -19,12 +19,12 @@ const Projects = () => {
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrapper>
         <ProjectsCard>
-          <ProjectA href="https://github.com/samsoncn/imglab">
+          <ProjectA href="https://devpost.com/software/asl-vision/">
             <ProjectsIcon src={Icon1} />
-            <ProjectsH2>Imglab</ProjectsH2>
+            <ProjectsH2>ASL Vision</ProjectsH2>
             <ProjectsP>
-              Open-source web app formulating imported images to generate a
-              modified COCO dataset for body recognition machine learning model.{" "}
+              A wbb app detects American Sign Language using Google Cloud API to
+              generate a dataset for recognition machine learning model.{" "}
             </ProjectsP>
           </ProjectA>
         </ProjectsCard>

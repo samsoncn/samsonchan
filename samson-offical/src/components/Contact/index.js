@@ -51,7 +51,7 @@ const Contact = () => {
           <Icon to="/">SCHAN</Icon>
           <FormContent>
             <Form action="#" onSubmit={sendEmail}>
-              <FormH1>Say Hello!</FormH1>
+              <FormH1>Contact me</FormH1>
               <FormLabel htmlFor="for">Full Name</FormLabel>
               <FormEmailInput type="text" name="fullName" required />
 

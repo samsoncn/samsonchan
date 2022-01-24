@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: "About-Samson ",
   headline: "Computer Science student",
   description:
-    "Currently in my third year at York Unisersity, I have a passion in computer vision, machine learning, and blockchain. My objective is to have my own startup in the future and I wish to collaborate with people to build on interesting projects. Feel free to message me to connect.",
+    "Currently in my third year at York University, I have a passion in computer vision, machine learning, and blockchain. My objective is to have my own startup in the future and I wish to collaborate with people to build on interesting projects. Feel free to message me to connect.",
   buttonLabel: "Connect",
   imgStart: true,
   img: require("../../images/me-3.png"),

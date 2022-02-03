@@ -48,7 +48,7 @@ export const homeObjThree = {
   imgStart: false,
   img: require("../../images/resume.png"),
   alt: "resume",
-  href: "https://drive.google.com/file/d/1CJdJaayoidESjnMvZ8PTOyMVL1A4USG0/preview",
+  href: "https://drive.google.com/file/d/1OX7-FBGCjyaSDUA1xEvM1Q49l6uAZizm/preview",
   dark: false,
   primary: false,
   darkText: true,

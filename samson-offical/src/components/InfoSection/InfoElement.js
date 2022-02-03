@@ -108,6 +108,7 @@ export const Img = styled.img`
   margin: 0 0 20px 0;
   padding-right: 0;
   transition: all 0.5s ease-in-out;
+  border-radius: 10px;
 
   &:hover {
     transform: scale(1.06);
